@@ -14,6 +14,7 @@
 		40ED4B7B2BA0F0820089DD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ED4B7A2BA0F0820089DD37 /* Assets.xcassets */; };
 		40ED4B7E2BA0F0820089DD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ED4B7C2BA0F0820089DD37 /* LaunchScreen.storyboard */; };
 		40ED4B872BA0F0E80089DD37 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4B862BA0F0E70089DD37 /* Models.swift */; };
+		40ED4B8B2BA0F6140089DD37 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4B8A2BA0F6140089DD37 /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40ED4B7D2BA0F0820089DD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ED4B7F2BA0F0820089DD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40ED4B862BA0F0E70089DD37 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		40ED4B8A2BA0F6140089DD37 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		40ED4B892BA0F1040089DD37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4B8A2BA0F6140089DD37 /* BarChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				40ED4B762BA0F07E0089DD37 /* ViewController.swift in Sources */,
 				40ED4B722BA0F07E0089DD37 /* AppDelegate.swift in Sources */,
+				40ED4B8B2BA0F6140089DD37 /* BarChartView.swift in Sources */,
 				40ED4B742BA0F07E0089DD37 /* SceneDelegate.swift in Sources */,
 				40ED4B872BA0F0E80089DD37 /* Models.swift in Sources */,
 			);
